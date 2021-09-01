@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ActionLearningModelStoreContainer" CdmEntityContainer="ActionLearningEntities">
+    <EntitySetMapping Name="orphanageRegistration1">
+      <EntityTypeMapping TypeName="ActionLearningModel.orphanageRegistration1">
+        <MappingFragment StoreEntitySet="orphanageRegistration1">
+          <ScalarProperty Name="oId" ColumnName="oId" />
+          <ScalarProperty Name="oName" ColumnName="oName" />
+          <ScalarProperty Name="oRegistrationNum" ColumnName="oRegistrationNum" />
+          <ScalarProperty Name="addressLine1" ColumnName="addressLine1" />
+          <ScalarProperty Name="addressLine2" ColumnName="addressLine2" />
+          <ScalarProperty Name="landmark" ColumnName="landmark" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="pincode" ColumnName="pincode" />
+          <ScalarProperty Name="phoneNum" ColumnName="phoneNum" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
